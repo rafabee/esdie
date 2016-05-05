@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HABILIDADES GERENCIALES</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js">
+            < link rel = "stylesheet" href = "/resources/demos/style.css" >
+                    < script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js" ></script>
+        <script>
+//            $(function () {
+//                console.log("hola");
+//                $("#tabs").tabs();
+//            });
+        </script>
+    </head>
+    <body>
+        <!-- este es el container que agarra todo el ancho de la pagina, la clase container-fluid es del bootstrap.css -->
+        <div class="container-fluid">
+        <style type="text/css">
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                    background: #222;
+                    color: white;
+                    list-style: none;
+                    cursor: pointer;
+                    padding: 0;
+                    text-align: center;
+                }
+                .nav li:hover > ul {
+                    display:block;
+                }
+            </style>
+            <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- responsive nav button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- /responsive nav button -->
+
+                        <!--                         logo 
+                                                <h1 class="navbar-brand">
+                                                    <img src="img/slider/cube.png" class="pull-left" alt="cube" style="max-height: 100%;min-height: 69px;min-width: 96px;">
+                                                    <img src="img/slider/text.png" class="pull-left" alt="text" style="max-height: 100%;min-width: 240px;min-height: 50px;">
+                                                </h1>-->
+                        <!-- /logo -->
+                    </div>
+
+                    <!-- main nav -->
+                    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="http://www.esdie.org/dev">Inicio</a></li>
+                            <li><a href="">Cursos</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/google.html">
+                                            Google
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/illustrator.html">
+                                            Illustrator
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/indesign.html">
+                                            InDesign
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#enterprise">Diplomados</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/cine.html">
+                                            Cine
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/gerenciales.html">
+                                            Gerenciales
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/imagen.html">
+                                            Imagen
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Licenciaturas Ejecutivas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li><a href="#testimonials">Misión y Visión</a></li>-->
+                            <li><a href="#contact">Licenciaturas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /main nav -->
+
+                </div>
+            </header>
+            <div style="height: 50px;"></div>
+            <br/>
+            <!-- este es el container que nos deja centrado el contenido  de la pagina, la clase container es del bootstrap.css -->
+            <div class="container">
+                <h1 class="text-center">DIPLOMADO EN HABILIDADES GERENCIALES</h1>
+                <p>La experiencia y conocimiento técnico de los expertos te permitirán agregar competencias a tu arsenal, así como conocer técnicas que 
+                    te facilitarán la implementación de los procesos críticos en la gestión de equipos.
+                </p>
+            </div><br>
+
+
+
+            <div class="container">
+                <div class="backazul">
+                    <iframe class="videos" src="https://www.youtube.com/embed/lIuZ1FR1GUA" frameborder="0" allowfullscreen></iframe><br/><br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-7 col-sl-7 cuadro1">
+                            <img class="img-responsive" src="../../images/programas/diplomados/cintillo.png"/>
+                            <!--<div style="border: 1px solid black;position: absolute;top: 0;float: left">el final</div>-->
+                            <br/>
+                            <br/><br/>
+                            <p class="becatxt">OBTÉN UNA BECA<br>
+                                HASTA DEL 50%</p><br>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1">    </div>
+                            <div class="col-xs-12 col-sm-12 col-md-10 col-sl-10">    
+
+                                <form role="form">
+                                    <input type="text" class="form-control" id="name" placeholder="NOMBRE"><br>
+                                    <input type="text" class="form-control" id="phone" placeholder="TELÉFONO"><br>
+                                    <input type="email" class="form-control" id="email" placeholder="E-MAIL"> <br> 
+
+                                    <button type="submit" class="btn btn-default btnenviar">ENVIAR</button>
+
+                                    <!--<input type="submit" value="ENVIAR">-->
+                                </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1"></div> 
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-sl-5 cuadro2"><h2>PRÓXIMO INICIO <br> DE CURSOS</h2><br>
+                            <p class="mes"><img src="../../images/programas/diplomados/flechas_negras.png"> Enero</p><br><br>
+                            <img src="../../images/programas/calendario_icono.png">
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="container">
+                <ul class="nav nav-tabs tabsesdie">
+                    <li class="activetab titulotab"><a data-toggle="tab" href="#home">INTRODUCCIÓN</a></li>
+                    <li class="inactivetab titulotab"><a data-toggle="tab" href="#menu1">¿POR QUÉ?</a></li>
+                    <li class="inactivetab titulotab"><a data-toggle="tab" href="#menu2">TEMARIO</a></li>
+                    <li class="inactivetab titulotab"><a data-toggle="tab" href="#menu3">CAMPO PROFESIONAL</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active"><br>
+                        <p>En la actualidad, la especialización y la necesidad simultánea de equipos interdisciplinarios generan retos sustanciales para sus líderes. 
+                            La necesidad de identificar el talento, integrarlo de manera armoniosa y asignar funciones, para alcanzar un objetivo requiere del desarrollo de
+                            habilidades muy particulares. El estilo adecuado de liderazgo, el coaching, la capacidad de negociación y la toma adecuada de decisiones juegan un
+                            papel fundamental en esta tarea. En el diplomado de habilidades gerenciales de ESDIE, desarrollamos estas habilidades y te daremos las herramientas 
+                            metodológicas que apoyan el éxito en la gestión de equipos de alto desempeño.
+                        </p>
+                    </div>
+                    <div id="menu1" class="tab-pane fade"><br>
+                        <p>En el diplomado de habilidades gerenciales de ESDIE, expertos en cada uno de los temas del plan de estudio abordan los tópicos de manera práctica y aplicada a 
+                            las necesidades actuales de los participantes. De esta manera, se  puede aprovechar la experiencia de los asistentes, al usar su problemática actual como base 
+                            de las discusiones. Headhunters, gerentes y directivos de Recursos Humanos en el área de desarrollo organizacional, coaches y expertos negociadores confluyen en 
+                            este diplomado, para abordar su contenido desde diferentes perspectivas.</p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12 tab-content">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                                <br>
+                                <p><b>Módulo I Liderazgo</b></p> <br>
+                                <ul>
+                                    <li>Definición de Liderazgo</li>
+                                    <li>¿Qué Tipo de Líder Eres?</li>
+                                    <li>Inteligencia Emocional</li>
+                                    <li>Liderazgo y Entorno Laboral</li>
+                                </ul><br>
+                                <p><b>Módulo II	Gestión del Talento</b></p><br>
+                                <ul>
+                                    <li>Reclutamiento y Selección</li>
+                                    <li>Desarrollo y Gestión del Talento</li>
+                                    <li>Prácticas.</li>
+                                </ul><br>
+                                <p><b>Módulo III.- Desarrollo de Habilidades de Coaching</b></p><br>
+                                <ul>
+                                    <li>El Directivo y su Rol en el Roaching</li>
+                                    <li>Comunicacion Asertiva</li>
+                                    <li>Escucha Activa y Empatía</li>
+                                    <li>Técnicas de Coaching</li>
+                                    <li>Retroalimentación</li>
+                                    <li>Diálogo</li>
+                                    <li>Prácticas</li>
+                                </ul><br>
+                                <p><b>Módulo IV	Negociación.</b></p><br>
+                                <ul>
+                                    <li>Introducción a Conceptos de Negocicación</li>
+                                    <li>Planeación</li>
+                                    <li>Tácticas y Técnicas de Negociación</li>
+                                    <li>Prácticas</li>
+                                </ul><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6"><br>
+                                <p><b>Módulo V	Toma de Decisiones</b></p><br>
+                                <ul>
+                                    <li>Problema y Toma de Decisiones</li>
+                                    <li>Información y la Toma de Decisiones</li>
+                                    <li>Costo de Oportunidad</li>
+                                    <li>Análisis de Decisiones</li>
+                                    <li>Prácticas</li>
+                                </ul><br>
+                                <p><b>Módulo VI	Administración del Tiempo</b></p><br>
+                                <ul>
+                                    <li>Características de los Administradores Efecivos del Tiempo</li>
+                                    <li>Priorización</li>
+                                    <li>Fugas de Tiempo</li>
+                                    <li>Prácticas</li>
+                                </ul><br>
+                                <p><b>Módulo VII	Planeación de Proyectos</b></p><br>
+                                <ul>
+                                    <li>Tipos de Proyectos</li>
+                                    <li>Fases del Proyecto</li>
+                                    <li>Planeación</li>
+                                    <li>Definición de Objetivos</li>
+                                    <li>Estimaciones Económicas y Financieras del Proyecto</li>
+                                    <li>Técnicas de Planificación y Administración de Proyectos</li>
+                                </ul><br>
+                                <p><b>Módulo VIII Imagen Directiva</b></p><br>
+                                <ul>
+                                    <li>Lenguaje Corporal</li>
+                                    <li>Vestimenta Ejecutiva</li>
+                                    <li>Lenguaje de Negocios</li>
+                                    <li>Comunicación</li>
+                                    <li>Presentaciones Efectivas</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div id="menu3" class="tab-pane fade">                          
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12 tab-content">
+                                <p>El diplomado en habilidades gerenciales de ESDIE es útil para:</p>
+                                <ul>
+                                    <li>Profesionistas de todos los niveles, áreas e industrias que tengan a su cargo equipos de trabajo,</li>
+                                    <li>líderes que intentan mejorar la conducción de sus seguidores,</li>
+                                    <li>profesionistas sin experiencia en conducir equipos de trabajo que tengan perspectivas de crecimiento,</li>
+                                    <li>empresarios y</li>
+                                    <li>líderes de proyectos.</li>                                                     
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+         <script>
+                    $(document).ready(function () {
+                $(".nav-tabs a").click(function () {
+                    $(".tabsesdie li").removeClass("activetab");
+                    $(".tabsesdie li").addClass("inactivetab");
+                    console.log(this);
+                    $(this).parent().removeClass("inactivetab");
+                    $(this).parent().removeClass("active");
+                    $(this).parent().addClass("activetab");
+                    console.log($(this).parent());
+                });
+                $('.nav-tabs a').on('shown.bs.tab', function (event) {
+                    console.log("this");
+                    console.log(this);
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Esdie</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <link rel = "stylesheet" href = "/resources/demos/style.css">
+        <script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js" ></script>
+    </head>
+    <body>
+        <!-- este es el container que agarra todo el ancho de la pagina, la clase container-fluid es del bootstrap.css -->
+        <div class="container-fluid">
+            <style type="text/css">
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                    background: #222;
+                    color: white;
+                    list-style: none;
+                    cursor: pointer;
+                    padding: 0;
+                    text-align: center;
+                }
+                .nav li:hover > ul {
+                    display:block;
+                }
+            </style>
+            <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- responsive nav button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- /responsive nav button -->
+
+                        <!--                         logo 
+                                                <h1 class="navbar-brand">
+                                                    <img src="img/slider/cube.png" class="pull-left" alt="cube" style="max-height: 100%;min-height: 69px;min-width: 96px;">
+                                                    <img src="img/slider/text.png" class="pull-left" alt="text" style="max-height: 100%;min-width: 240px;min-height: 50px;">
+                                                </h1>-->
+                        <!-- /logo -->
+                    </div>
+
+                    <!-- main nav -->
+                    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="http://www.esdie.org/dev">Inicio</a></li>
+                            <li><a href="">Cursos</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/google.html">
+                                            Google
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/illustrator.html">
+                                            Illustrator
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/indesign.html">
+                                            InDesign
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#enterprise">Diplomados</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/cine.html">
+                                            Cine
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/gerenciales.html">
+                                            Gerenciales
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/imagen.html">
+                                            Imagen
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Licenciaturas Ejecutivas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li><a href="#testimonials">Misión y Visión</a></li>-->
+                            <li><a href="#contact">Licenciaturas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /main nav -->
+
+                </div>
+            </header>
+            <div style="height: 50px;"></div>
+            <!-- este es el container que nos deja centrado el contenido  de la pagina, la clase container es del bootstrap.css -->
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="border: 1px solid red">
+                    <div class="col-xs-12 col-sm-6 col-md-9 col-lg-8 homelic">
+                        <h2 style="color: #00A0CE;text-align: center">Licenciaturas</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4 homelic">
+                        <div style="height: 200px;width: 200px;border: 1px solid black" class="center-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">
+                foot
+            </div>
+        </div>
+    </body>
+</html>

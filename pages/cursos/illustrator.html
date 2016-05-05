@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ILLUSTRATOR</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js">
+            < link rel = "stylesheet" href = "/resources/demos/style.css" >
+                    < script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js" ></script>
+        <script>
+//            $(function () {
+//                console.log("hola");
+//                $("#tabs").tabs();
+//            });
+        </script>
+    </head>
+    <body>
+        <!-- este es el container que agarra todo el ancho de la pagina, la clase container-fluid es del bootstrap.css -->
+        <div class="container-fluid">
+           <style type="text/css">
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                    background: #222;
+                    color: white;
+                    list-style: none;
+                    cursor: pointer;
+                    padding: 0;
+                    text-align: center;
+                }
+                .nav li:hover > ul {
+                    display:block;
+                }
+            </style>
+            <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- responsive nav button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- /responsive nav button -->
+
+                        <!--                         logo 
+                                                <h1 class="navbar-brand">
+                                                    <img src="img/slider/cube.png" class="pull-left" alt="cube" style="max-height: 100%;min-height: 69px;min-width: 96px;">
+                                                    <img src="img/slider/text.png" class="pull-left" alt="text" style="max-height: 100%;min-width: 240px;min-height: 50px;">
+                                                </h1>-->
+                        <!-- /logo -->
+                    </div>
+
+                    <!-- main nav -->
+                    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="http://www.esdie.org/dev">Inicio</a></li>
+                            <li><a href="">Cursos</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/google.html">
+                                            Google
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/illustrator.html">
+                                            Illustrator
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/indesign.html">
+                                            InDesign
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#enterprise">Diplomados</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/cine.html">
+                                            Cine
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/gerenciales.html">
+                                            Gerenciales
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/imagen.html">
+                                            Imagen
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Licenciaturas Ejecutivas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li><a href="#testimonials">Misión y Visión</a></li>-->
+                            <li><a href="#contact">Licenciaturas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /main nav -->
+
+                </div>
+            </header>
+            <div style="height: 50px;"></div>
+            <br/>
+            <!-- este es el container que nos deja centrado el contenido  de la pagina, la clase container es del bootstrap.css -->
+            <div class="container">
+                <h1 class="text-center">CURSO DE ILLUSTRATOR BÁSICO</h1>
+                <p>El Diseño Gráfico y la producción de imágenes vectoriales digitales son dos de las disciplinas con mayor demanda en el campo de las artes visuales. 
+                    El advenimiento del formato digital ha generado grandes posibilidades para producir ilustraciones, logotipos y todo tipo de activos publicitarios 
+                    (anuncios, volantes informativos, etc.). Illustrator es el software más utilizado y con mayores alcances del mercado, por lo que este curso se enfoca en
+                    el empleo de dicho software.
+                </p>
+            </div><br>
+
+
+
+            <div class="container">
+                <div class="backazul">
+                    <iframe class="videos" src="https://www.youtube.com/embed/lIuZ1FR1GUA" frameborder="0" allowfullscreen></iframe><br/><br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-7 col-sl-7 cuadro1">
+                            <img class="img-responsive" src="../../images/programas/diplomados/cintillo.png"/>
+                            <!--<div style="border: 1px solid black;position: absolute;top: 0;float: left">el final</div>-->
+                            <br/>
+                            <br/><br/>
+                            <p class="becatxt">OBTÉN UNA BECA<br>
+                                HASTA DEL 50%</p><br>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1">    </div>
+                            <div class="col-xs-12 col-sm-12 col-md-10 col-sl-10">    
+
+                                <form role="form">
+                                    <input type="text" class="form-control" id="name" placeholder="NOMBRE"><br>
+                                    <input type="text" class="form-control" id="phone" placeholder="TELÉFONO"><br>
+                                    <input type="email" class="form-control" id="email" placeholder="E-MAIL"> <br> 
+
+                                    <button type="submit" class="btn btn-default btnenviar">ENVIAR</button>
+
+                                    <!--<input type="submit" value="ENVIAR">-->
+                                </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1"></div> 
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-sl-5 cuadro2"><h2>PRÓXIMO INICIO <br> DE CURSOS</h2><br>
+                            <p class="mes"><img src="../../images/programas/diplomados/flechas_negras.png"> Enero</p><br><br>
+                            <img src="../../images/programas/calendario_icono.png">
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="container">
+                <ul class="nav nav-tabs tabsesdie">
+                    <li class="activetab titulotab"><a data-toggle="tab" href="#home">INTRODUCCIÓN</a></li>
+                    <li class="inactivetab titulotab"><a data-toggle="tab" href="#menu1">¿POR QUÉ?</a></li>
+                    <li class="inactivetab titulotab"><a data-toggle="tab" href="#menu2">TEMARIO</a></li>
+                    <li class="inactivetab titulotab"><a data-toggle="tab" href="#menu3">CAMPO PROFESIONAL</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active"><br>
+                        <p>En este curso, el alumno contará con la capacitación necesaria para el uso de Illustrator en un nivel básico, pero suficiente para su participación activa en la industria.
+                            El curso se centrará en la familiarización del alumno con el programa, con la exploración de las posibilidades del mismo, y en el desarrollo de las habilidades gráficas
+                            de cada persona.</p>                      
+                    </div>
+                    <div id="menu1" class="tab-pane fade"><br>
+                        <p>El curso de Illustrator Básico te ofrece la posibilidad de aplicar los conocimientos adquiridos de manera inmediata, para que, al terminarlo, puedas generar imágenes que atraigan
+                            la atención de tus clientes, por medio del uso adecuado de las herramientas más efectivas de diseño y producción de imagen. Además, nuestros profesores son profesionales del área 
+                            con amplia experiencia en el mundo de la publicidad y las artes gráficas. Termina tu proyecto, imprímelo y participa en la exposición de gala en la que se premiarán los 
+                            mejores trabajos.
+                        </p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12  tab-content" id="temariocontainer">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                                <p><b>Módulo I</b></p>
+                                <ul>
+                                    <li>Adobe Illustrator</li>
+                                </ul>                           
+                                <p><b>Módulo II</b></p>
+                                <ul>
+                                    <li>Espacio de Trabajo</li>
+                                </ul>
+                                <p><b>Módulo III</b></p>
+                                <ul>
+                                    <li>Nuevo Documento</li>
+                                </ul>
+                                <p><b>Módulo IV</b></p>
+                                <ul>
+                                    <li>Visualización y Medición</li>
+                                </ul>
+                                <p><b>Módulo V</b></p>
+                                <ul>
+                                    <li>Uso de Capas</li>
+                                </ul>
+                                <p><b>Módulo VI</b></p>
+                                <ul>
+                                    <li>Herramientas de Dibujo</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                                <p><b>Módulo VII</b></p>
+                                <ul>
+                                    <li>Uso del Color</li>
+                                </ul>
+                                <p><b>Módulo VIII</b></p>
+                                <ul>
+                                    <li>Objetos</li>
+                                </ul>
+                                <p><b>Módulo IX</b></p>
+                                <ul>
+                                    <li>Texto</li>
+                                </ul>
+                                <p><b>Módulo X</b></p>
+                                <ul>
+                                    <li>El Dibujo</li>
+                                </ul>
+                                <p><b>Proyecto Final</b></p>
+                                <ul>
+                                    <li>Exposición de Gala</li>
+                                </ul>                      
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12 tab-content">                    
+                            <p>Ámbito profesional:
+                            <ul>
+                                <li>Mercadólogos,</li>
+                                <li>profesionales de artes visuales,</li>
+                                <li>diseñadores,</li>
+                                <li>editores,</li>
+                                <li>creativos,</li>
+                                <li>directores de arte,</li>
+                                <li>aficionados a las Artes Gráficas.</li>
+                            </ul>                         
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+         <script>
+                    $(document).ready(function () {
+                $(".nav-tabs a").click(function () {
+                    $(".tabsesdie li").removeClass("activetab");
+                    $(".tabsesdie li").addClass("inactivetab");
+                    console.log(this);
+                    $(this).parent().removeClass("inactivetab");
+                    $(this).parent().removeClass("active");
+                    $(this).parent().addClass("activetab");
+                    console.log($(this).parent());
+                });
+                $('.nav-tabs a').on('shown.bs.tab', function (event) {
+                    console.log("this");
+                    console.log(this);
+                });
+            });
+        </script>
+    </body>
+</html>

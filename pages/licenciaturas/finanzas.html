@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FINANZAS Y CONTADURÍA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js">
+            < link rel = "stylesheet" href = "/resources/demos/style.css" >
+                    < script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js" ></script>
+        <script>
+//            $(function () {
+//                console.log("hola");
+//                $("#tabs").tabs();
+//            });
+        </script>
+    </head>
+    <body>
+        <!-- este es el container que agarra todo el ancho de la pagina, la clase container-fluid es del bootstrap.css -->
+        <div class="container-fluid">
+             <style type="text/css">
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                    background: #222;
+                    color: white;
+                    list-style: none;
+                    cursor: pointer;
+                    padding: 0;
+                    text-align: center;
+                }
+                .nav li:hover > ul {
+                    display:block;
+                }
+            </style>
+            <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- responsive nav button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- /responsive nav button -->
+
+                        <!--                         logo 
+                                                <h1 class="navbar-brand">
+                                                    <img src="img/slider/cube.png" class="pull-left" alt="cube" style="max-height: 100%;min-height: 69px;min-width: 96px;">
+                                                    <img src="img/slider/text.png" class="pull-left" alt="text" style="max-height: 100%;min-width: 240px;min-height: 50px;">
+                                                </h1>-->
+                        <!-- /logo -->
+                    </div>
+
+                    <!-- main nav -->
+                    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="http://www.esdie.org/dev">Inicio</a></li>
+                            <li><a href="">Cursos</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/google.html">
+                                            Google
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/illustrator.html">
+                                            Illustrator
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/indesign.html">
+                                            InDesign
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#enterprise">Diplomados</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/cine.html">
+                                            Cine
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/gerenciales.html">
+                                            Gerenciales
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/imagen.html">
+                                            Imagen
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Licenciaturas Ejecutivas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li><a href="#testimonials">Misión y Visión</a></li>-->
+                            <li><a href="#contact">Licenciaturas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /main nav -->
+
+                </div>
+            </header>
+            <div style="height: 50px;"></div>
+            <br/>
+            <!-- este es el container que nos deja centrado el contenido  de la pagina, la clase container es del bootstrap.css -->
+            <div class="container">
+                <h1 class="text-center">LICENCIATURA EN FINANZAS Y CONTADURÍA CON DIPLOMADO EN INNOVACIÓN <br> Y DESARROLLO DE NEGOCIOS</h1>                
+            </div><br>
+
+            <div class="container">
+                <div class="backazul">
+                    <iframe class="videos" src="https://www.youtube.com/embed/lIuZ1FR1GUA" frameborder="0" allowfullscreen></iframe><br/><br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-7 col-sl-7 cuadro1">
+                            <img class="img-responsive" src="../../images/programas/diplomados/cintillo.png"/>
+                            <!--<div style="border: 1px solid black;position: absolute;top: 0;float: left">el final</div>-->
+                            <br/>
+                            <br/><br/>
+                            <p class="becatxt">OBTÉN UNA BECA<br>
+                                HASTA DEL 50%</p><br>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1">    </div>
+                            <div class="col-xs-12 col-sm-12 col-md-10 col-sl-10">    
+
+                                <form role="form">
+                                    <input type="text" class="form-control" id="name" placeholder="NOMBRE"><br>
+                                    <input type="text" class="form-control" id="phone" placeholder="TELÉFONO"><br>
+                                    <input type="email" class="form-control" id="email" placeholder="E-MAIL"> <br> 
+
+                                    <button type="submit" class="btn btn-default btnenviar">ENVIAR</button>
+
+                                    <!--<input type="submit" value="ENVIAR">-->
+                                </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1"></div> 
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-sl-5 cuadro2"><h2>PRÓXIMO INICIO <br> DE CURSOS</h2><br>
+                            <p class="mes"><img src="../../images/programas/diplomados/flechas_negras.png"> Enero</p><br><br>
+                            <img src="../../images/programas/calendario_icono.png">
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="container">
+                <ul class="nav nav-tabs tabsesdie">
+                    <li class="activetab2 titulotab tablic"><a data-toggle="tab" href="#home">OBJETIVO</a></li>
+                    <li class="inactivetab2 titulotab tablic"><a data-toggle="tab" href="#menu1">PERFIL DEL EGRESADO</a></li>
+                    <li class="inactivetab2 titulotab tablic"><a data-toggle="tab" href="#menu2">PLAN DE ESTUDIOS</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active"><br>
+                        <p>Formar profesionales del área contable financiera, con conocimientos teóricos y prácticos sólidos,
+                            para implementarlos en:
+                        <ul>
+                            <li>Administrar áreas financieras, contables, fiscales de empresas privadas,</li>
+                            <li>desarrollar nuevas empresas,</li>
+                            <li>administrar empresas públicas,</li>
+                            <li>gestionar diseñar, vender productos financieros y bursátiles,</li>
+                            <li>realizar consultoría financiera,</li>
+                            <li>evaluar proyectos de inversión,</li>
+                            <li>realizar auditorías financieras y fiscales y</li>
+                            <li>gestionar, evaluar y analizar fuentes de financiamiento para la creación y desarrollo deempresas.</li>
+                        </ul>
+                        </p>                      
+                    </div>
+                    <div id="menu1" class="tab-pane fade"><br>
+                        <p>El profesional egresado de la Licenciatura en Finanzas y Contaduría con Diplomado en Innovación
+                            y Desarrollo de Negocios de ESDIE posee conocimientos teóricos, conceptuales, metodológicos y
+                            técnicos en:
+                        <ul>
+                            <li>Sistemas y técnicas de registro contable,</li>
+                            <li>estructura, análisis y planeación financiera,</li>
+                            <li>modelos administrativos para diferentes tipos de empresas,</li>
+                            <li>procedimientos y técnicas de auditoría,</li>
+                            <li>tecnologías y sistemas de información digital,</li>
+                            <li>investigación y desarrollo de nuevas empresas y negocios,</li>
+                            <li>técnicas y sistemas de innovación y</li>
+                            <li>mercados financieros.</li>
+                        </ul>                    
+                        </p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade"><br>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12 tab-content">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                                <br>
+                                <p><b>Materias Remediales</b></p>
+                                <ul>
+                                    <li>Remedial de Matemáticas</li>
+                                    <li>Materias del área de Humanidades</li>
+                                    <li>Ética y Valores</li>
+                                    <li>Proyecto de Nación</li>
+                                    <li>Filosofía del Pensamiento Humanista</li>
+                                </ul>
+                                <p><b>Materias de competencias básicas</b></p>
+                                <ul>
+                                    <li>Macroeconomía</li>
+                                    <li>Métodos de Investigación I</li>
+                                    <li>Microeconomía</li>
+                                    <li>Matemáticas Financieras I</li>
+                                    <li>Teoría del conocimiento científico</li>
+                                    <li>Matemáticas Financieras II </li>
+                                    <li>Métodos de investigación II</li>
+                                    <li>Estadística</li>
+                                    <li>Fundamentos de Economía</li>
+                                    <li>Desarrollo Ejecutivo</li>
+                                    <li>Psicología de las Organizaciones</li>
+                                </ul>
+                                <p><b>Materias del área de marco legal</b></p>
+                                <ul>
+                                    <li>Fundamentos de Derecho</li>
+                                    <li>Derecho Mercantil</li>
+                                    <li>Derecho Laboral</li>
+                                </ul>
+                                <p><b>Materias del área de Administración</b></p>
+                                <ul>
+                                    <li>Presupuestos I</li>
+                                    <li>Presupuestos II</li>
+                                    <li>Administración I</li>
+                                    <li>Administración II</li>
+                                    <li>Fundamentos de Administración</li>
+                                    <li>Fundamentos de Auditoría</li>
+                                    <li>Auditoría I</li>
+                                    <li>Auditoría II</li>
+                                    <li>Gestión Empresarial</li>
+                                    <li>Práctica de Auditoria</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                                <br>
+                                <p><b>Materias del área de Contabilidad y Finanzas</b></p>
+                                <ul>
+                                    <li>Fiscal I</li>
+                                    <li>Fiscal II</li>
+                                    <li>Fiscal III</li>
+                                    <li>Fiscal IV</li>
+                                    <li>Contabilidad I</li>
+                                    <li>Contabilidad II</li>
+                                    <li>Contabilidad III</li>
+                                    <li>Contabilidad IV</li>
+                                    <li>Contabilidad V</li>
+                                    <li>Costos I</li>
+                                    <li>Costos II</li>
+                                    <li>Fundamentos de Finanzas</li>
+                                    <li>Finanzas I</li>
+                                    <li>Finanzas II</li>
+                                    <li>Actualización de la Información Financiera I</li>
+                                    <li>Análisis e Interpretación de la Información Financiera I.</li>
+                                    <li>Análisis e Interpretación de la Información Financiera II</li>
+                                    <li>Contribuciones Indirectas de Seguridad Social</li>
+                                </ul>
+                                <p><b>Materias del área de Tecnología e Informática</b></p>
+                                <ul>
+                                    <li>Informática I</li>
+                                    <li>Informática II</li>
+                                </ul>
+                                <p><b>Materias de titulación</b></p>
+                                <ul>
+                                    <li>Seminario de Titulación I</li>
+                                    <li>Seminario de Titulación II</li>
+                                </ul>
+                                <p><b>Materias del área Comercial y Mercadológica</b></p>
+                                <ul>
+                                    <li>Comercio Internacional</li>
+                                </ul>
+                                <p><b>Materias de fortalecimiento adicionales Modelo ESDIE</b></p>
+                                <ul>
+                                    <li>Técnicas de Organización</li>
+                                    <li>Administración II</li>
+                                    <li>Creación de Empresas</li>
+                                    <li>Administración de Pequeñas y Medianas Empresas</li>
+                                    <li>Evaluación de Proyectos</li>
+                                    <li>Desarrollo de Habilidades Gerenciales</li>
+                                    <li>Expresión Oral y Escrita</li>
+                                    <li>Lengua Extranjera  (Inglés)</li>
+                                    <li>Lengua Extranjera (Inglés II)</li>
+                                    <li>Materias del Diplomado en Innovación y Desarrollo de Empresas</li>
+                                    <li>Comercio Electrónico</li>
+                                    <li>Modelos Innovadores de Negocios</li>
+                                    <li>Procesos Fundamentales de Innovación</li>
+                                    <li>Fuentes de Financiamiento</li>
+                                    <li>Identificación de Oportunidades de Negocios</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <script>
+                        $(document).ready(function () {
+                    $(".nav-tabs a").click(function () {
+                        $(".tabsesdie li").removeClass("activetab2");
+                        $(".tabsesdie li").addClass("inactivetab2");
+                        console.log(this);
+                        $(this).parent().removeClass("inactivetab2");
+                        $(this).parent().removeClass("active2");
+                        $(this).parent().addClass("activetab2");
+                        console.log($(this).parent());
+                    });
+                    $('.nav-tabs a').on('shown.bs.tab', function (event) {
+                        console.log("this");
+                        console.log(this);
+                    });
+                });
+            </script>
+    </body>
+</html>

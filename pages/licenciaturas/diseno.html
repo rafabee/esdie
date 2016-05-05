@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DISEÑO GRÁFICO</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js">
+            < link rel = "stylesheet" href = "/resources/demos/style.css" >
+                    < script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js" ></script>
+        <script>
+//            $(function () {
+//                console.log("hola");
+//                $("#tabs").tabs();
+//            });
+        </script>
+    </head>
+    <body>
+        <!-- este es el container que agarra todo el ancho de la pagina, la clase container-fluid es del bootstrap.css -->
+        <div class="container-fluid">
+            <style type="text/css">
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                    background: #222;
+                    color: white;
+                    list-style: none;
+                    cursor: pointer;
+                    padding: 0;
+                    text-align: center;
+                }
+                .nav li:hover > ul {
+                    display:block;
+                }
+            </style>
+            <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- responsive nav button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- /responsive nav button -->
+
+                        <!--                         logo 
+                                                <h1 class="navbar-brand">
+                                                    <img src="img/slider/cube.png" class="pull-left" alt="cube" style="max-height: 100%;min-height: 69px;min-width: 96px;">
+                                                    <img src="img/slider/text.png" class="pull-left" alt="text" style="max-height: 100%;min-width: 240px;min-height: 50px;">
+                                                </h1>-->
+                        <!-- /logo -->
+                    </div>
+
+                    <!-- main nav -->
+                    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="http://www.esdie.org/dev">Inicio</a></li>
+                            <li><a href="">Cursos</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/google.html">
+                                            Google
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/illustrator.html">
+                                            Illustrator
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/indesign.html">
+                                            InDesign
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#enterprise">Diplomados</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/cine.html">
+                                            Cine
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/gerenciales.html">
+                                            Gerenciales
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/imagen.html">
+                                            Imagen
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Licenciaturas Ejecutivas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li><a href="#testimonials">Misión y Visión</a></li>-->
+                            <li><a href="#contact">Licenciaturas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /main nav -->
+
+                </div>
+            </header>
+            <div style="height: 50px;"></div>
+            <br/>
+            <!-- este es el container que nos deja centrado el contenido  de la pagina, la clase container es del bootstrap.css -->
+            <div class="container">
+                <h1 class="text-center">LICENCIATURA EN DISEÑO GRÁFICO CON DIPLOMADO EN MARKETING DIGITAL</h1>
+            </div><br>
+
+            <div class="container">
+                <div class="backazul">
+                    <iframe class="videos" src="https://www.youtube.com/embed/lIuZ1FR1GUA" frameborder="0" allowfullscreen></iframe><br/><br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-7 col-sl-7 cuadro1">
+                            <img class="img-responsive" src="../../images/programas/diplomados/cintillo.png"/>
+                            <!--<div style="border: 1px solid black;position: absolute;top: 0;float: left">el final</div>-->
+                            <br/>
+                            <br/><br/>
+                            <p class="becatxt">OBTÉN UNA BECA<br>
+                                HASTA DEL 50%</p><br>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1">    </div>
+                            <div class="col-xs-12 col-sm-12 col-md-10 col-sl-10">    
+
+                                <form role="form">
+                                    <input type="text" class="form-control" id="name" placeholder="NOMBRE"><br>
+                                    <input type="text" class="form-control" id="phone" placeholder="TELÉFONO"><br>
+                                    <input type="email" class="form-control" id="email" placeholder="E-MAIL"> <br> 
+
+                                    <button type="submit" class="btn btn-default btnenviar">ENVIAR</button>
+
+                                    <!--<input type="submit" value="ENVIAR">-->
+                                </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-1 col-sl-1"></div> 
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-5 col-sl-5 cuadro2"><h2>PRÓXIMO INICIO <br> DE CURSOS</h2><br>
+                            <p class="mes"><img src="../../images/programas/diplomados/flechas_negras.png"> Enero</p><br><br>
+                            <img src="../../images/programas/calendario_icono.png">
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="container">
+                <ul class="nav nav-tabs tabsesdie">
+                    <li class="activetab2 titulotab tablic"><a data-toggle="tab" href="#home">OBJETIVO</a></li>
+                    <li class="inactivetab2 titulotab tablic"><a data-toggle="tab" href="#menu1">PERFIL DEL EGRESADO</a></li>
+                    <li class="inactivetab2 titulotab tablic"><a data-toggle="tab" href="#menu2">PLAN DE ESTUDIOS</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active"><br>
+                        <p>Formar profesionales del diseño, con sólidos conocimientos teóricos y prácticos, para:
+                        <ul>
+                            <li>Codificar y decodificar mensajes para objetivos,</li>
+                            <li>proponer elementos visuales para campañas de publicidad,</li>
+                            <li>crear soluciones de comunicación visual,</li>
+                            <li>concebir conceptos visuales,</li>
+                            <li>desarrollar conceptos de imagen para marcas, productos, servicios o empresas, con el objetivo de transmitir mensajes específicos,</li>
+                            <li>administrar proyectos de diseño y</li>
+                            <li>diseñar elementos visuales con características apropiadas para los diferentes medios existentes.</li>
+                        </ul>
+                        </p>                      
+                    </div>
+                    <div id="menu1" class="tab-pane fade"><br>
+                        <p>El egresado de la Licenciatura en Diseño Gráfico con Diplomado en Marketing Digital de ESDIE posee sólidos y amplios conocimientos teóricos, metodológicos y técnicos sobre:
+                        <ul>
+                            <li>Técnicas de Diseño Gráfico,</li>
+                            <li>creatividad enfocada al Diseño,</li>
+                            <li>medios publicitarios,</li>
+                            <li>herramientas y aplicaciones para el Diseño,</li>
+                            <li>interpretación gráfica,</li>
+                            <li>conceptos, teorías y técnicas de comunicación gráfica,</li>
+                            <li>métodos para la estimación de costos relacionados con trabajos de Diseño,</li>
+                            <li>Historia del Arte y el Diseño,</li>
+                            <li>marco legal de la Publicidad y el Diseño y</li>
+                            <li>gestión de proyectos de Diseño.</li>
+                        </ul>                    
+                        </p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade"><br>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12 tab-content">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                                <br>
+                                <p><b>Materias del Programa</b></p>
+                                <p><b>Materias remediales</b></p>
+                                <ul>
+                                    <li>Remedial de matemáticas</li>
+                                </ul>
+                                <p>Materias del área de Humanidades</p>
+                                <ul>
+                                    <li>Proyecto de nación</li>
+                                    <li>Ética y Valores / Ética Profesional</li>
+                                    <li>Filosofía del Pensamiento Humanista</li>
+                                    <li>Historia del Arte I</li>
+                                    <li>Historia del Arte II</li>
+                                    <li>Historia del Diseño Gráfico</li>
+                                </ul>
+                                <p><b>Materias de Competencias Básicas</b></p>
+                                <ul>
+                                    <li>Teoría del Conocimiento Científico</li>
+                                    <li>Seminario de Habilidades para el Trabajo Intelectual</li>
+                                    <li>Metodología de la Investigación</li>
+                                    <li>Lengua Extranjera (inglés I)</li>
+                                    <li>Lengua Extranjera (inglés II)</li>
+                                    <li>Gestión de Proyectos</li>
+                                    <li>Morfosintaxis y Redacción</li>
+                                </ul>
+                                <p><b>Materias del área de Administración</b></p>
+                                <ul>
+                                    <li>Administración I</li>
+                                    <li>Procedimiento y Costos de diseño</li>
+                                    <li>Materias del Área de Marco Legal</li>
+                                    <li>Legislación Publicitaria</li>
+                                </ul>
+                                <br>
+                                <p><b>Materias del área Comercial, Publicidad y Comunicación</b></p>                               
+                                <ul>
+                                    <li>Mercadotecnia</li>
+                                    <li>Publicidad</li>
+                                </ul>
+                                <p><b>Materias del área de Diseño</b></p>                               
+                                <ul>
+                                    <li>Análisis del Lenguaje Pictórico
+                                    <li>Fundamentos del Diseño</li>
+                                    <li>Diseño de Cartel</li>
+                                    <li>Anatomía</li>
+                                    <li>Observación del Medio</li>
+                                    <li>Grabado y Xilografía</li>
+                                    <li>Dibujo</li>
+                                    <li>Serigrafía</li>
+                                    <li>Psicología del Color. Movimientos</li>
+                                    <li>Modelos de Impresión</li>
+                                    <li>Tipografía</li>
+                                    <li>Ilustración</li>
+                                    <li>Tipografía II</li>
+                                    <li>Ilustración II</li>
+                                    <li>Técnicas y Materiales de Producción</li>
+                                    <li>Geometría</li>
+                                    <li>Semiótica de la Comunicación</li>
+                                    <li>Diseño de Empaques y Embalajes</li>
+                                    <li>Diseño Sustentable</li>
+                                    <li>Identidad Corporativa</li>
+                                    <li>Infografía</li>
+                                    <li>Psicología de la Percepción</li>
+                                    <li>Geometría II</li>
+                                    <li>Diseño Editorial</li>
+                                    <li>Metodología en el Diseño</li>
+                                    <li>Diseño de Señalética</li>
+                                    <li>Animación Digital</li>
+                                    <li>Fotografía Digital</li>
+                                    <li>Diseño de Páginas Web</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                            </div>
+                            <p><b>Materias del área Comercial, Publicidad y Comunicación</b></p>                               
+                            <ul>
+                                <li>Computación I</li>
+                                <li>Computación II</li>
+                                <li>Materias de fortalecimiento adicionales Modelo ESDIE</li>
+                                <li>Procesos Fundamentales de Innovación.</li>
+                                <li>Creación de Empresas</li>
+                                <li>Introducción a la Economía</li>
+                                <li>Taller de Creatividad Publicitaria</li>
+                                <li>Promoción y Publicidad</li>
+                                <li>Mercadotecnia Internacional</li>
+                            </ul>
+                            <p><b>Materias de titulación</b></p>                               
+                            <ul>
+                                <li>Seminario de Tesis I</li>
+                                <li>Prácticas Profesionales de Mercadotecnia</li>
+                                <li>Portafolio Profesional</li>
+                                <li>Seminario de Teoría del Diseño</li>
+                                <li>Proyecto Terminal</li>
+                            </ul>
+                            <p><b>Materias del Diplomado en Marketing Digital</b></p>                               
+                            <ul>
+                                <li>Mercadotecnia</li>
+                                <li>Social Media</li>
+                                <li>Informática Aplicada a la Mercadotecnia I</li>
+                                <li>Medios y sus Tendencias</li>
+                                <li>Diseño Gráfico Digital</li>
+                                <li>Diseño Gráfico Digital II.</li>
+                                <li>Comercio Electrónico</li>
+                                <li>Mercadotecnia Móvil</li>
+                                <li>Mercadotecnia para Motores de Búsqueda</li>
+                            </ul>
+                        </div>   
+                    </div>
+
+                </div>
+            </div>
+            <script>
+                        $(document).ready(function () {
+                    $(".nav-tabs a").click(function () {
+                        $(".tabsesdie li").removeClass("activetab2");
+                        $(".tabsesdie li").addClass("inactivetab2");
+                        console.log(this);
+                        $(this).parent().removeClass("inactivetab2");
+                        $(this).parent().removeClass("active2");
+                        $(this).parent().addClass("activetab2");
+                        console.log($(this).parent());
+                    });
+                    $('.nav-tabs a').on('shown.bs.tab', function (event) {
+                        console.log("this");
+                        console.log(this);
+                    });
+                });
+            </script>
+    </body>
+</html>

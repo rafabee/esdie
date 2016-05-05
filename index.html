@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Esdie</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <link rel = "stylesheet" href = "/resources/demos/style.css">
+        <script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js" ></script>
+    </head>
+    <body>
+        <!-- este es el container que agarra todo el ancho de la pagina, la clase container-fluid es del bootstrap.css -->
+        <div class="container-fluid">
+            <style type="text/css">
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                    background: #222;
+                    color: white;
+                    list-style: none;
+                    cursor: pointer;
+                    padding: 0;
+                    text-align: center;
+                }
+                .nav li:hover > ul {
+                    display:block;
+                }
+            </style>
+            <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- responsive nav button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- /responsive nav button -->
+
+                        <!--                         logo 
+                                                <h1 class="navbar-brand">
+                                                    <img src="img/slider/cube.png" class="pull-left" alt="cube" style="max-height: 100%;min-height: 69px;min-width: 96px;">
+                                                    <img src="img/slider/text.png" class="pull-left" alt="text" style="max-height: 100%;min-width: 240px;min-height: 50px;">
+                                                </h1>-->
+                        <!-- /logo -->
+                    </div>
+
+                    <!-- main nav -->
+                    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="http://www.esdie.org/dev">Inicio</a></li>
+                            <li><a href="">Cursos</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/google.html">
+                                            Google
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/illustrator.html">
+                                            Illustrator
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/cursos/indesign.html">
+                                            InDesign
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#enterprise">Diplomados</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/cine.html">
+                                            Cine
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/gerenciales.html">
+                                            Gerenciales
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/diplomados/imagen.html">
+                                            Imagen
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Licenciaturas Ejecutivas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/lic_ejecutivas/ej_finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li><a href="#testimonials">Misión y Visión</a></li>-->
+                            <li><a href="#contact">Licenciaturas</a>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/derecho.html">
+                                            Derecho
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/diseno.html">
+                                            Dise&ntilde;o
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.esdie.org/dev/pages/licenciaturas/finanzas.html">
+                                            Finanzas
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /main nav -->
+
+                </div>
+            </header>
+            <div style="height: 50px;"></div>
+            <br/>
+            <!-- este es el container que nos deja centrado el contenido  de la pagina, la clase container es del bootstrap.css -->
+            <div class="container">
+                <div>
+                    <iframe class="videohome" src="https://www.youtube.com/embed/lIuZ1FR1GUA" frameborder="0" allowfullscreen></iframe><br/><br>
+                </div>
+            </div><br>
+
+            <!--Cuadros-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-sl-4 cuadrosindex">
+                        <img class="img-responsiveindex" src="images/home/pleca1.png"/>
+                        <br/>
+                        <br/><br/>
+                        <img src="images/home/img1.jpg">
+                        <p class="pintex">-Mejores oportunidades laborales.<br>
+                            -Infraestructura diseñada para fomentar la práctica y la innovación.<br>
+                            -Método interactivo.<br>
+                            -Flexibilidad.</p><br>
+                        <button type="submit" class="btn btn-default btnenviar">MÁS BENEFICIOS</button>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-sl-4 cuadrosindex">
+                        <img class="img-responsiveindex" src="images/home/pleca2.png"/>
+                        <br/>
+                        <br/><br/>
+                        <img src="images/home/img2.jpg">
+                        <p class="pintex">No te pierdas los eventos de ESDIE. <br>
+                            Conoce nuestras instalaciones, a nuestros profesores y aprende lo último en tecnología, innovación y negocios</p><br>
+                        <button type="submit" class="btn btn-default btnenviar">INSCRIBIRSE</button>
+                    </div>  
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-sl-4 cuadrosindex">
+                        <img class="img-responsiveindex" src="images/home/pleca3.png"/>
+                        <br/>
+                        <br/><br/>
+                        <img src="images/home/img3.jpg">
+                        <p class="pintex">¿Home office?<br>
+                            5 años de Instagram, 5 tips para tener éxito en esta red social
+                            instagram_esdie.
+                            La famosa red social de las fotografíasy con más de 400 millones de seguidores, cumplió 5 años y lo festejamos dejándote unos consejos...Leer más</p>
+                    </div> 
+                </div>
+            </div><br>
+
+            <!--Video ESDIE-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12 cuadro_videoindex">
+                        <img class="img-responsiveindex" src="images/home/pleca4.png">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-sl-12 espacioviceo"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                            <img src="images/home/video1.png" class="img-responsive center-block"/>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-sl-6">
+                            <iframe class="videohome2" src="https://www.youtube.com/embed/lIuZ1FR1GUA" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-sl-3 cuadro_video1_intex"><img src="images/home/video2.png" class="img-responsive  center-block">
+                        </div>
+
+                    </div>            
+                </div>
+            </div><br><br>
+
+            <!--Cuadros 2-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-sl-4 cuadrosindex">
+                        <img class="img-responsiveindex" src="images/home/pleca5.png"/>                     
+                        <br/>
+                        <br/>
+                        <h2 class="h2intex">SUSCRÍBETE A NUESTRO NEWSLETTER Y RECIBE NOTICIAS, ACTUALIZACIONES Y TIPS DE NUESTRO ESTUDIO EN TU CORREO SEMANALMENTE. </h2><br>
+                        <form role="form">
+                            <input type="text" class="form-control" id="name" placeholder="ESCRIBE TU E-MAIL"><br>
+                        </form>
+                        <button type="submit" class="btn btn-default btnenviar">SUSCRIBIRSE</button>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-sl-4 center-block">                 
+                        <img src="images/home/fb.png">                    
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-sl-4 center-block">                  
+                        <img src="images/home/tw.png">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </body>
+</html>
